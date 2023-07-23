@@ -25,9 +25,7 @@ const auth = useAuthStore()
       </v-app-bar>
 
       <v-main>
-        <v-main>
-          <RouterView />
-        </v-main>
+        <RouterView />
       </v-main>
     </v-layout>
   </v-card>
