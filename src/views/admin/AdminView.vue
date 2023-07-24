@@ -1,7 +1,8 @@
 <script setup>
 import usePropiedades from '../../composables/usePropiedades'
+import { precio } from '../../utils'
 
-const { propieddesCollection, precio } = usePropiedades()
+const { propieddesCollection } = usePropiedades()
 </script>
 
 <template>
